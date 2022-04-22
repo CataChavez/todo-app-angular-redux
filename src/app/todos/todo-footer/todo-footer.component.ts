@@ -32,7 +32,6 @@ export class TodoFooterComponent implements OnInit {
 
   changeFilter(filter: actions.validFilter) { 
     this.store.dispatch(actions.setFilter({ filter }));
-    console.log(filter)
   }
 
   clearCompleted() { 
